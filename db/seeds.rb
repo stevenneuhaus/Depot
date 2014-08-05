@@ -16,7 +16,7 @@ Product.create!(
         I even think that it know's voodoo magic.
         Magic is great.
       </p>},
-  image_url: 'ruby.jpg',
+  image_url: 'ruby.png',
   price: 49.95
 )
 
@@ -29,19 +29,11 @@ Product.create!(
   price: 9.99
 )
 
-Product.create!(
-  title: 'Camus - The Stranger',
-  description: %{
-    A foundational existential text, and one of my personal favorite
-    books.},
-  image_url: 'stranger2.jpg',
-  price: 9.99
-)
 
 Product.create!(
   title: 'Steven Neuhaus',
   description: %{<p>
     He's great, but still trying to figure out his life.</p>},
-  image_url: 'stunner.jpg',
+  image_url: 'steven_rails.jpg',
   price: 9000000
 )
